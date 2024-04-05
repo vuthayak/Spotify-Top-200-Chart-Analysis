@@ -272,9 +272,6 @@ if action == 4:
     sns.scatterplot(data=spotify_df[spotify_df[artist]==1],x=feature_1,y=feature_2,hue=artist)
     plt.legend([],[],frameon=False)
     plt.show()
-    
-
-# Loop back to options
 
 
 
